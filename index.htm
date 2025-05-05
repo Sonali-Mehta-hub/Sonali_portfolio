@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>Student Portfolio - Modern Theme</title>
+
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand navbar-dark">
+      <div class="container-fluid px-0">
+        <a class="navbar-brand" href="#">Sonali Kumari</a>
+        <div class="collapse navbar-collapse justify-content-end">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Studies</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Abilities</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero-container">
+      <div class="hero-left d-flex flex-column justify-content-center align-items-center text-center">
+        <h2 style="color: #40e0d0; font-weight: 800;">Hello, It's me</h2>
+        <h1 style="color: #ffffff; font-weight: 800;">Sonali Kumari<span style="color: #40e0d0; font-weight: 800; font-size: 25px;">, and I'm a</span></h1>
+        <div class="typed-text" id="typed"></div>
+        <div class="d-flex justify-content-center gap-3 mt-3">
+          <a href="#about" class="btn btn-outline-info btn-sm">About</a>
+          <a href="#projects" class="btn btn-outline-info btn-sm">Projects</a>
+          <a href="#contact" class="btn btn-outline-info btn-sm">Contact</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <img src="my photo.jpeg" alt="Profile Photo" />
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-with-icon left-icon">
+      <div class="icon-container">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="About Icon" />
+      </div>
+      <div class="text-container">
+        <h3>About Me</h3>
+        <p style="text-align: justify;">
+          I’m a passionate and ambitious <strong>B.Tech 2nd Year Computer Science student at Amity University Jharkhand</strong>, driven by a love for building meaningful tech solutions. I specialize in <strong>Java and Web Development</strong>, and I’m currently exploring the exciting fields of <strong>MERN stack development</strong> and <strong>blockchain integration</strong>.
+        </p>
+        <ul>
+          <li> Working on a <strong>Java-based Online Voting System</strong></li>
+          <li> Created an <strong>Attendance Manager</strong> using HTML, CSS, and JavaScript</li>
+          <li> Built my own <strong>personal portfolio website</strong></li>
+          <li> Seeking internship opportunities to apply and grow my skills</li>
+        </ul>
+        <h5>Certifications & Skills:</h5>
+        <ul>
+          <li> Certified in <strong>HTML & CSS</strong> from KG Coding by Prashant Sir</li>
+          <li> Key Skills: <strong>Java, HTML5, CSS3, JavaScript</strong></li>
+        </ul>
+        <h5>Traits & Achievements:</h5>
+        <ul>
+          <li> Team player and creative problem-solver</li>
+          <li> Participated in <strong>Smart India Hackathon (SIH)</strong></li>
+          <li> Enjoy hackathons, coding challenges, and learning new technologies</li>
+        </ul>
+        <p>
+          My goal is to become a <strong>skilled MERN Stack Developer</strong> with a strong focus on <strong>blockchain-powered applications</strong> that create real-world impact.
+        </p>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-with-icon right-icon">
+      <div class="text-container">
+        <h3>Education</h3>
+        <div class="card p-3">
+          <h5>B.Tech - Computer Science and Engineering</h5>
+          <p>Amity University Jharkhand (2023 - 2027)</p>
+        </div>
+        <div class="card p-3">
+          <h5>12th - Science</h5>
+          <p>Ursuline Intermediate College, Ranchi (2020 - 2022)</p>
+        </div>
+      </div>
+      <div class="icon-container">
+        <img src="https://cdn-icons-png.flaticon.com/512/2942/2942131.png" alt="Education Icon" />
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-with-icon left-icon">
+      <div class="icon-container">
+        <img src="https://cdn-icons-png.flaticon.com/512/2721/2721290.png" alt="Skills Icon" />
+      </div>
+      <div class="text-container">
+        <h3>Skills</h3>
+        <div class="skills-list">
+          <div class="skill-badge">JavaScript</div>
+          <div class="skill-badge">Python</div>
+          <div class="skill-badge">HTML5</div>
+          <div class="skill-badge">CSS3</div>
+          <div class="skill-badge">React</div>
+          <div class="skill-badge">Bootstrap</div>
+          <div class="skill-badge">Java</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-with-icon right-icon">
+      <div class="text-container">
+        <h3>Works</h3>
+        <div class="card p-3">
+          <h5>Personal Portfolio</h5>
+          <p>Modern responsive portfolio website using HTML, CSS, and JS.</p>
+          <a href="https://github.com/Sonali-Mehta-hub/techsonix_project">GitHub link</a>
+        </div>
+        <div class="card p-3">
+          <h5>Attend Ease</h5>
+          <p>Attendance management system using HTML, CSS and JS</p>
+          <a href="https://github.com/Sonali-Mehta-hub/AttenEase">GitHub link</a>
+        </div>
+      </div>
+      <div class="icon-container">
+        <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="Works Icon" />
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-with-icon left-icon">
+      <div class="icon-container">
+        <img src="https://cdn-icons-png.flaticon.com/512/725/725643.png" alt="Contact Icon" />
+      </div>
+      <div class="text-container">
+        <h3>Contact</h3>
+        <p>Email: <a href="mailto:sonalimehta1982@gmail.com">sonalimehta1982@gmail.com</a></p>
+        <p>Phone: <a href="tel:+917677895363">+91 7677895363</a></p>
+        <p>GitHub: <a href="https://github.com/Sonali-Mehta-hub" target="_blank">Sonali-Mehta-hub</a></p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Bootstrap & Typed.js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="script.js"></script>
+</body>
+</html>
