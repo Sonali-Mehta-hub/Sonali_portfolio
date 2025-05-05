@@ -25,9 +25,9 @@ To run this project locally, follow the steps below:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/Sonali-Mehta-hub/techsonix_project.git
+   git clone https://github.com/Sonali-Mehta-hub/Sonali_portfolio.git
 2.Navigate to the project directory:
-   cd techsonix_project
+   cd Sonali_portfolio
 3.Open the index.html file in your browser to view the portfolio
   open index.html
 
