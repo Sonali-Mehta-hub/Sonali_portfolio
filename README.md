@@ -31,4 +31,6 @@ To run this project locally, follow the steps below:
 3.Open the index.html file in your browser to view the portfolio
   open index.html
 
+  for better experience visit https://sonali-mehta-hub.github.io/Sonali_portfolio/
+
 
